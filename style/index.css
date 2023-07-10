@@ -146,8 +146,8 @@
     background-image: url(../flowerasset/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
-    height: 300px;
+    /* width: 1440px;
+    height: 300px; */
     max-width: 75%;
     margin: auto;
     margin-bottom: 100px;
