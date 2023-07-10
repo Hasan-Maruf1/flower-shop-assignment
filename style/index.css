@@ -63,9 +63,70 @@
     background-color: #d11b43;
 }
 
+/* featured section */
+.featured-main{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.featured-content{
+    width: 45%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
 
 
-/* Deal part */
+.featured-items-section {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.featured-section-divider {
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+
+.featured-item-img {
+    width: 250px;
+    height: 300px;
+    align-items: baseline;
+    padding: 0px;
+    margin-top: 50px;
+
+}
+
+
+.featured-items-bg-one{
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 350px;
+    width: 265px;
+    padding: 30px 30px 0px 30px;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 30px;
+}
+.featured-items-bg-two{
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 350px;
+    width: 265px;
+    padding: 30px 30px 0px 30px;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 30px;
+}.featured-items-bg-three{
+    background-color: rgba(71, 125, 17, 0.15);
+    height: 350px;
+    width: 265px;
+    padding: 30px 30px 0px 30px;
+    border-radius: 200px 200px 0px 0px;
+    margin-bottom: 30px;
+}
+
+/* Deal section */
 .deal-main {
     height: 500px;
     background-color: rgba(229, 84, 115, 0.05);
@@ -90,8 +151,8 @@
     text-align: center;
 }
 
-.content-header>span {
-    color: #E55473;
+.special-word {
+    color: #d11b43;
 }
 
 .content-desc {
@@ -110,7 +171,7 @@
     align-items: end;
 }
 
-/* social/instagram part */
+/* social/instagram section */
 .social-main {
     max-width: 80%;
     margin: auto;
@@ -142,7 +203,7 @@
 
 }
 
-/* Subscribe part */
+/* Subscribe section */
 .subscribe-main {
     background-image: url("../flowerasset/Rectangle09.png");
     background-repeat: no-repeat;
@@ -174,7 +235,7 @@
     border-radius: 8px;
 }
 
-/* footer */
+/* footer section */
 .footer-main {
     background-color: #111010;
     text-align: center;
@@ -190,10 +251,6 @@
     margin-bottom: 20px;
 }
 
-.footer-title>span {
-    color: #E55473;
-}
-
 .footer-desc {
     color: rgba(255, 255, 255, 0.90);
     width: 40%;
@@ -203,7 +260,8 @@
     margin: auto;
     margin-bottom: 20px;
 }
-.footer-copyright{
+
+.footer-copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
