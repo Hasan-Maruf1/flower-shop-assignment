@@ -81,20 +81,19 @@
 
 }
 
-.deal-left-header {
+.content-header {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 30px;
 }
 
-.deal-left-header>span {
+.content-header>span {
     color: #E55473;
 }
 
-.deal-left-desc {
+.content-desc {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -104,4 +103,26 @@
 
 .deal-right{
     width: 50%;
+}
+/* social/instagram part */
+.social-main{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.social-content{
+    
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+.social-imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.social-imgs-items{
+    height: 300px;
+    width: 275px;
+    margin: 10px;
 }
