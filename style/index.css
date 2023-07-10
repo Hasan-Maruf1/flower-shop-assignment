@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Banner section */
+.banner-main {
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+
+
+}
+
+.banner-right-img {
+    width: 430px;
+    height: 520px;
+    margin-bottom: 0px;
+    padding: 100px 100px 0px 30px;
+
+}
+
+.banner-section-left-content {
+    text-align: left;
+    max-width: 800px;
+    padding: 200px 50px 200px 200px;
+
+}
+
+.header-left-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.header-left-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.header-left-btn{
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+}
