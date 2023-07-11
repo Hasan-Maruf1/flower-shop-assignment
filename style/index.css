@@ -296,8 +296,16 @@
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 
+}
+/* Social Links */
+.social-links-icon{
+    height: 30px;
+    width: 30px;
+}
+.social-links{
+    padding-bottom: 50px;
 }
 
 /* Shop value section/my added Section */
@@ -330,3 +338,4 @@
     font-weight: 400;
     -ms-text-kashida-space: 5%;
 }
+
